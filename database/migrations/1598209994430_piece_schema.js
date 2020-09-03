@@ -15,7 +15,7 @@ class PieceSchema extends Schema {
       table.string('transcrição').notNullable()
 
       table.timestamps()
-    })
+    }) 
   }
 
   down () {
